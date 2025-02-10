@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(180deg, orange 30%, #ffffff 95%);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: azure;
+}
+
+.navbar.navbar-expand-lg.navbar-light {
+    background-color: orange;
+}
+
+.navbar-brand img {
+    width: 2em;
+}
+
+.col-lg-4.col-md-6 .card img {
+    height: 250px;
+}
+
+
+footer .row .col-lg-12 p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.vlad {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+
+@keyframes myAnim {
+
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
+@media (max-width: 1000px) {
+    footer {
+        display: none;
+    }
+}
+
+
+footer {
+    background-color: white;
+    margin-top: 5em;
+}
+
+.card {
+    box-shadow: 5px 5px 25px 0px #000000;
+
+}
+
+
+
+.text-clr {
+    color: white;
+    margin: auto auto;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
