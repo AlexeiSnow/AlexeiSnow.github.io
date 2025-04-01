@@ -1,0 +1,88 @@
+.container {
+    width: 1265px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 85px;
+    margin-top: 25px;
+}
+
+.content {
+    text-align: center;
+}
+
+.car__select {
+    margin-bottom: 100px;
+}
+
+.car__list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.select__text {
+    margin-bottom: 37px;
+    font-size: 42px;
+    width: 250px;
+    text-align: right;
+}
+
+.select__btn {
+    width: 218px;
+    height: 63px;
+    background-color: #005A9F;
+    border-radius: 15px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.select__btn:active {
+    position: relative;
+    top: 2px;
+}
+
+.line  {
+    height: 5px;
+    background-color: #005A9F;
+    border-radius: 15px;
+    margin-bottom: 45px;
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    .container {
+        width: 80%;
+    }
+
+    .car__list {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 45px;
+    }
+
+    .select {
+        align-items: center;
+    }
+
+    .select__text {
+        text-align: center;
+    }
+
+   
+
+}

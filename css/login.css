@@ -1,0 +1,128 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-family: Montserrat;
+}
+
+body {
+    background-color: #005A9F;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.container {
+    width: 503px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-top: 56px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.logo__img {
+    width: 276px;
+    margin-bottom: 38px;
+}
+
+.logo__text {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.authorization {
+    margin-bottom: 20px;
+}
+
+.login_group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.login_group label {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.login_group input {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.password_group {
+    display: flex;
+    flex-direction: column;
+}
+
+.password_group label {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.password_group input {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.memory {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+
+
+.btn {
+    text-align: center;
+}
+
+.sign_in {
+    width: 232px;
+    height: 63px;
+    background-color: white;
+    color: #005A9F;
+    border-radius: 15px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sign_in:active {
+    position: relative;
+    top: 2px;
+}
+
+
+.message {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+    display: none;  
+    text-align: center;      
+}
+
+.success {
+    background: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+}
+.error {
+    background: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+}

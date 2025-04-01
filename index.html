@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добро пожаловать</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="logo">
+                <img class="logo__img" src="./images/vsdesk-sm-logo.png" alt="logo">
+                <p class="logo__text">Бронирование автомобилей</p>
+            </div>
+            <form id="loginForm">
+                <div class="authorization">
+                    <div class="login_group">
+                        <label for="login">Логин:</label>
+                        <input type="text" id="login" name="login" required>
+                    </div>
+                    <div class="password_group">
+                        <label for="">Пароль:</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                </div>
+                <div class="memory">
+                    <div class="remember_me">
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Запомнить меня</label>
+                    </div>
+                    <div class="forgot">
+                        <a href="#!">Забыли пароль?</a>
+                    </div>
+                </div>
+    
+                <div class="message" id="message"></div>
+    
+                <div class="btn">
+                    <button class="sign_in" type="submit">Войти</button>
+                </div>
+            </form>
+        </div>
+        <script src="./js/login.js"></script>
+    </section>
+</body>
+
+</html>
